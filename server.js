@@ -5,7 +5,8 @@ import peliculaRoutes from './src/pelicula/routes.js';
 import actorRoutes from './src/actor/routes.js';
 
 // Conexión a la base de datos MongoDB
-const uri = 'mongodb+srv://gmlopezg:uq7LQtQuQjk5OlRl@eva-u3-express.3fvdd.mongodb.net/?retryWrites=true&w=majority&appName=eva-u3-express';
+const uri = 'mongodb+srv://gmlopezg:uq7LQtQuQjk5OlRl@eva-u3-express.3fvdd.mongodb.net/?retryWrites=true&w=majority&appName=eva-u3-express'
+
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
