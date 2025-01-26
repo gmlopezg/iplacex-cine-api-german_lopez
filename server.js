@@ -14,8 +14,8 @@ const client = new MongoClient(uri, {
   },
 });
 
-app.use(express.json());
-app.use(cors());
+const PORT = process.env.PORT || 3000;
+const app = express();
 
 // Middleware
 app.use(express.json());
