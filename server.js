@@ -15,7 +15,6 @@ const client = new MongoClient(uri, {
 });
 
 app.use(express.json());
-app.use(urlencoded({ extended:true }))
 app.use(cors());
 
 // Middleware
